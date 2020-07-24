@@ -1,0 +1,9 @@
+Z:\PROGRAMACION\C#\.NETCORE\FacturacionWeb\Facturacion.Conexion\bin\Debug\netcoreapp3.1\Facturacion.Conexion.deps.json
+Z:\PROGRAMACION\C#\.NETCORE\FacturacionWeb\Facturacion.Conexion\bin\Debug\netcoreapp3.1\Facturacion.Conexion.dll
+Z:\PROGRAMACION\C#\.NETCORE\FacturacionWeb\Facturacion.Conexion\bin\Debug\netcoreapp3.1\Facturacion.Conexion.pdb
+Z:\PROGRAMACION\C#\.NETCORE\FacturacionWeb\Facturacion.Conexion\obj\Debug\netcoreapp3.1\Facturacion.Conexion.csprojAssemblyReference.cache
+Z:\PROGRAMACION\C#\.NETCORE\FacturacionWeb\Facturacion.Conexion\obj\Debug\netcoreapp3.1\Facturacion.Conexion.AssemblyInfoInputs.cache
+Z:\PROGRAMACION\C#\.NETCORE\FacturacionWeb\Facturacion.Conexion\obj\Debug\netcoreapp3.1\Facturacion.Conexion.AssemblyInfo.cs
+Z:\PROGRAMACION\C#\.NETCORE\FacturacionWeb\Facturacion.Conexion\obj\Debug\netcoreapp3.1\Facturacion.Conexion.csproj.CoreCompileInputs.cache
+Z:\PROGRAMACION\C#\.NETCORE\FacturacionWeb\Facturacion.Conexion\obj\Debug\netcoreapp3.1\Facturacion.Conexion.dll
+Z:\PROGRAMACION\C#\.NETCORE\FacturacionWeb\Facturacion.Conexion\obj\Debug\netcoreapp3.1\Facturacion.Conexion.pdb

@@ -1,0 +1,7 @@
+Z:\PROGRAMACION\C#\.NETCORE\FacturacionWeb\Infraestructura\bin\Debug\netcoreapp3.1\Infraestructura.deps.json
+Z:\PROGRAMACION\C#\.NETCORE\FacturacionWeb\Infraestructura\bin\Debug\netcoreapp3.1\Infraestructura.dll
+Z:\PROGRAMACION\C#\.NETCORE\FacturacionWeb\Infraestructura\obj\Debug\netcoreapp3.1\Infraestructura.csprojAssemblyReference.cache
+Z:\PROGRAMACION\C#\.NETCORE\FacturacionWeb\Infraestructura\obj\Debug\netcoreapp3.1\Infraestructura.AssemblyInfoInputs.cache
+Z:\PROGRAMACION\C#\.NETCORE\FacturacionWeb\Infraestructura\obj\Debug\netcoreapp3.1\Infraestructura.AssemblyInfo.cs
+Z:\PROGRAMACION\C#\.NETCORE\FacturacionWeb\Infraestructura\bin\Debug\netcoreapp3.1\Facturacion.Conexion.dll
+Z:\PROGRAMACION\C#\.NETCORE\FacturacionWeb\Infraestructura\obj\Debug\netcoreapp3.1\Infraestructura.csproj.CoreCompileInputs.cache
