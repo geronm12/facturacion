@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Entities;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -11,6 +12,11 @@ namespace Facturacion.Dominio.Entities
         public DateTime FechaActualizacion { get; set; }
 
         public decimal PrecioCosto { get; set; }
- 
+
+        public long PrecioListaPrecioId { get; set; }
+
+        public virtual PrecioListaPrecio PrecioListaPrecio { get; set; }
+
+        public virtual ICollection<Producto> Productos { get; set; }
     }
 }

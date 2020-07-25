@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Entities;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -11,5 +12,10 @@ namespace Facturacion.Dominio.Entities
         public decimal? Descuento { get; set; }
 
         public decimal? Recargo { get; set; }
+
+        public long PrecioListaPrecioId { get; set; }
+
+        public virtual Cliente Cliente { get; set; }
+        public virtual PrecioListaPrecio PrecioListaPrecio { get; set; }
     }
 }

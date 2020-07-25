@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Entities;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -17,5 +18,9 @@ namespace Facturacion.Dominio.Entities
         public string Codigo { get; set; }
 
         public DateTime FechaVencimiento { get; set; }
+
+        public long PrecioId { get; set; }
+
+        public virtual Precio Precio { get; set; }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Entities;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -16,5 +17,9 @@ namespace Facturacion.Dominio.Entities
 
         public decimal MontoCierre { get; set; }
 
+
+        public virtual ICollection<DetalleDeCaja> DetalleDeCajas { get; set; }
+
+        public virtual ICollection<Movimiento> Movimientos { get; set; }
     }
 }

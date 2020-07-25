@@ -14,6 +14,7 @@ namespace Facturacion.Dominio.Entities
 
         public DateTime FechaNacimiento { get; set; }
 
+        public virtual Usuario Usuario { get; set; }
 
     }
 }

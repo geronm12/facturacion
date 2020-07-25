@@ -17,6 +17,9 @@ namespace Facturacion.Dominio.Entities
 
         public string Email { get; set; }
 
+        public long UsuarioId { get; set; }
+
+        
 
     }
 }

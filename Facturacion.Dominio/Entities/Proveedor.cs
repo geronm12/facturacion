@@ -14,5 +14,8 @@ namespace Facturacion.Dominio.Entities
         public string RazonSocial { get; set; }
 
         public string NombreFantasia { get; set; }
+ 
+
+        public virtual ICollection<FacturaCompra> FacturaCompras { get; set; }
     }
 }
