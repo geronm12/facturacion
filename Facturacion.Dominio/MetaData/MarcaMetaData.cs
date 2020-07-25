@@ -9,7 +9,12 @@ namespace Facturacion.Dominio.MetaData
     {
         public void Configure(EntityTypeBuilder<Marca> builder)
         {
-            builder.Property(x => x.Descripcion).HasMaxLength(250).IsRequired();
+            builder.Property(x => x.Descripcion)
+                .HasMaxLength(250)
+                .IsRequired();
+
+            builder.Property(x => x.EstaBorrado)
+               .HasDefaultValue(false);
         }
     }
 }

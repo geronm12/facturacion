@@ -1,10 +1,11 @@
-﻿using System;
+﻿using Entities;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace Facturacion.Dominio.Entities
 {
-    public class PrecioListaPrecio
+    public class PrecioListaPrecio : EntityBase
     {
 
         public long PrecioId { get; set; }

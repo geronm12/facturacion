@@ -9,9 +9,16 @@ namespace Facturacion.Dominio.MetaData
     {
         public void Configure(EntityTypeBuilder<FormaPago> builder)
         {
-            builder.Property(x => x.DetalleCajaId).IsRequired();
+            builder.Property(x => x.DetalleCajaId)
+                .IsRequired();
 
-            builder.Property(x => x.Tipo).IsRequired();
+
+            builder.Property(x => x.Tipo)
+                .HasConversion(x => x.ToString(), e => (FormaPago)Enum.Parse(typeof(FormaPago), e))
+                .IsRequired();
+
+            builder.Property(x => x.EstaBorrado)
+               .HasDefaultValue(false);
         }
     }
 }

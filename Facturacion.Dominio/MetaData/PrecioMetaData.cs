@@ -8,10 +8,20 @@ namespace Facturacion.Dominio.Entities
     {
         public void Configure(EntityTypeBuilder<Precio> builder)
         {
-            builder.Property(x => x.FechaActualizacion).IsRequired();
-            builder.Property(x => x.PrecioCosto).IsRequired();
-            builder.Property(x => x.PrecioPublico).IsRequired();
-             
+            builder.Property(x => x.FechaActualizacion)
+                .IsRequired()
+                .HasColumnType("numeric(18,2)");
+
+                 builder.Property(x => x.PrecioPublico)
+                .IsRequired()
+                .HasColumnType("Date");
+
+           builder.Property(x => x.PrecioCosto)
+                .IsRequired()
+                .HasColumnType("Date");
+
+            builder.Property(x => x.EstaBorrado)
+                .HasDefaultValue(false);
         }
     }
 }

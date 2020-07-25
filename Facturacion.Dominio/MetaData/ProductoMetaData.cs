@@ -8,16 +8,33 @@ namespace Facturacion.Dominio.Entities
     {
         public void Configure(EntityTypeBuilder<Producto> builder)
         {
-            builder.Property(x => x.Stock).IsRequired();
-            builder.Property(x => x.MarcaId).IsRequired();
-            builder.Property(x => x.FechaVencimiento).IsRequired();
-            builder.Property(x => x.Descripcion).HasMaxLength(300).IsRequired();
-            builder.Property(x => x.Codigo).HasMaxLength(150).IsRequired();
-            builder.Property(x => x.PrecioId).IsRequired();
-            builder.Property(x => x.CategoriaId).IsRequired();
+            builder.Property(x => x.Stock)
+                .IsRequired();
+
+            builder.Property(x => x.MarcaId)
+                .IsRequired();
+
+            builder.Property(x => x.FechaVencimiento)
+                .IsRequired()
+                .HasColumnType("Date");
+
+            builder.Property(x => x.Descripcion)
+                .HasMaxLength(300)
+                .IsRequired();
+
+            builder.Property(x => x.Codigo)
+                .HasMaxLength(150)
+                .IsRequired();
+
+            builder.Property(x => x.PrecioId).
+                IsRequired();
+
+            builder.Property(x => x.CategoriaId)
+                .IsRequired();
 
 
-
+            builder.Property(x => x.EstaBorrado)
+               .HasDefaultValue(false);
 
 
 

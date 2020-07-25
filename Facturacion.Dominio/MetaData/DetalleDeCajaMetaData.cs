@@ -9,9 +9,15 @@ namespace Facturacion.Dominio.MetaData
     {
         public void Configure(EntityTypeBuilder<DetalleDeCaja> builder)
         {
-            builder.Property(x => x.CajaId).IsRequired();
-            builder.Property(x => x.Monto).IsRequired();
-            
+            builder.Property(x => x.CajaId)
+                .IsRequired();
+
+            builder.Property(x => x.Monto)
+                .IsRequired()
+                .HasColumnType("numeric(18,2)");
+
+            builder.Property(x => x.EstaBorrado)
+               .HasDefaultValue(false);
         }
     }
 }

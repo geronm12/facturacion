@@ -6,3 +6,7 @@ Z:\PROGRAMACION\C#\.NETCORE\FacturacionWeb\Facturacion.Dominio\obj\Debug\netcore
 Z:\PROGRAMACION\C#\.NETCORE\FacturacionWeb\Facturacion.Dominio\obj\Debug\netcoreapp3.1\Facturacion.Dominio.AssemblyInfo.cs
 Z:\PROGRAMACION\C#\.NETCORE\FacturacionWeb\Facturacion.Dominio\obj\Debug\netcoreapp3.1\Facturacion.Dominio.dll
 Z:\PROGRAMACION\C#\.NETCORE\FacturacionWeb\Facturacion.Dominio\obj\Debug\netcoreapp3.1\Facturacion.Dominio.pdb
+Z:\PROGRAMACION\C#\.NETCORE\FacturacionWeb\Facturacion.Dominio\bin\Debug\netcoreapp3.1\Constantes.dll
+Z:\PROGRAMACION\C#\.NETCORE\FacturacionWeb\Facturacion.Dominio\bin\Debug\netcoreapp3.1\Constantes.pdb
+Z:\PROGRAMACION\C#\.NETCORE\FacturacionWeb\Facturacion.Dominio\obj\Debug\netcoreapp3.1\Facturacion.Dominio.csproj.CoreCompileInputs.cache
+Z:\PROGRAMACION\C#\.NETCORE\FacturacionWeb\Facturacion.Dominio\obj\Debug\netcoreapp3.1\Facturacion.Dominio.csproj.CopyComplete

@@ -7,7 +7,7 @@ namespace Facturacion.Dominio.Entities
 {
     public class FormaPago : EntityBase
     {
-        public string Tipo { get; set; }
+        public FormaPago Tipo { get; set; }
 
         public long DetalleCajaId { get; set; }
 

@@ -5,3 +5,12 @@ Z:\PROGRAMACION\C#\.NETCORE\FacturacionWeb\Infraestructura\obj\Debug\netcoreapp3
 Z:\PROGRAMACION\C#\.NETCORE\FacturacionWeb\Infraestructura\obj\Debug\netcoreapp3.1\Infraestructura.AssemblyInfo.cs
 Z:\PROGRAMACION\C#\.NETCORE\FacturacionWeb\Infraestructura\bin\Debug\netcoreapp3.1\Facturacion.Conexion.dll
 Z:\PROGRAMACION\C#\.NETCORE\FacturacionWeb\Infraestructura\obj\Debug\netcoreapp3.1\Infraestructura.csproj.CoreCompileInputs.cache
+Z:\PROGRAMACION\C#\.NETCORE\FacturacionWeb\Infraestructura\bin\Debug\netcoreapp3.1\Infraestructura.pdb
+Z:\PROGRAMACION\C#\.NETCORE\FacturacionWeb\Infraestructura\bin\Debug\netcoreapp3.1\Constantes.dll
+Z:\PROGRAMACION\C#\.NETCORE\FacturacionWeb\Infraestructura\bin\Debug\netcoreapp3.1\Facturacion.Dominio.dll
+Z:\PROGRAMACION\C#\.NETCORE\FacturacionWeb\Infraestructura\bin\Debug\netcoreapp3.1\Facturacion.Conexion.pdb
+Z:\PROGRAMACION\C#\.NETCORE\FacturacionWeb\Infraestructura\bin\Debug\netcoreapp3.1\Facturacion.Dominio.pdb
+Z:\PROGRAMACION\C#\.NETCORE\FacturacionWeb\Infraestructura\bin\Debug\netcoreapp3.1\Constantes.pdb
+Z:\PROGRAMACION\C#\.NETCORE\FacturacionWeb\Infraestructura\obj\Debug\netcoreapp3.1\Infraestructura.csproj.CopyComplete
+Z:\PROGRAMACION\C#\.NETCORE\FacturacionWeb\Infraestructura\obj\Debug\netcoreapp3.1\Infraestructura.dll
+Z:\PROGRAMACION\C#\.NETCORE\FacturacionWeb\Infraestructura\obj\Debug\netcoreapp3.1\Infraestructura.pdb

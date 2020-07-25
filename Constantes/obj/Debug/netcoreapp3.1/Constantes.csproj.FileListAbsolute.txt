@@ -1,0 +1,9 @@
+Z:\PROGRAMACION\C#\.NETCORE\FacturacionWeb\Constantes\bin\Debug\netcoreapp3.1\Constantes.deps.json
+Z:\PROGRAMACION\C#\.NETCORE\FacturacionWeb\Constantes\bin\Debug\netcoreapp3.1\Constantes.dll
+Z:\PROGRAMACION\C#\.NETCORE\FacturacionWeb\Constantes\bin\Debug\netcoreapp3.1\Constantes.pdb
+Z:\PROGRAMACION\C#\.NETCORE\FacturacionWeb\Constantes\obj\Debug\netcoreapp3.1\Constantes.csprojAssemblyReference.cache
+Z:\PROGRAMACION\C#\.NETCORE\FacturacionWeb\Constantes\obj\Debug\netcoreapp3.1\Constantes.AssemblyInfoInputs.cache
+Z:\PROGRAMACION\C#\.NETCORE\FacturacionWeb\Constantes\obj\Debug\netcoreapp3.1\Constantes.AssemblyInfo.cs
+Z:\PROGRAMACION\C#\.NETCORE\FacturacionWeb\Constantes\obj\Debug\netcoreapp3.1\Constantes.csproj.CoreCompileInputs.cache
+Z:\PROGRAMACION\C#\.NETCORE\FacturacionWeb\Constantes\obj\Debug\netcoreapp3.1\Constantes.dll
+Z:\PROGRAMACION\C#\.NETCORE\FacturacionWeb\Constantes\obj\Debug\netcoreapp3.1\Constantes.pdb

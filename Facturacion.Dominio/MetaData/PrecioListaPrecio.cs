@@ -9,8 +9,14 @@ namespace Facturacion.Dominio.MetaData
     {
         public void Configure(EntityTypeBuilder<PrecioListaPrecio> builder)
         {
-            builder.Property(x => x.ListaPrecioId).IsRequired();
-            builder.Property(x => x.PrecioId).IsRequired();
+            builder.Property(x => x.ListaPrecioId)
+                .IsRequired();
+
+            builder.Property(x => x.PrecioId)
+                .IsRequired();
+
+            builder.Property(x => x.EstaBorrado)
+               .HasDefaultValue(false);
         }
     }
 }

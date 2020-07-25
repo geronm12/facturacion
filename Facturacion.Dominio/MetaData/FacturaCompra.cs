@@ -9,11 +9,25 @@ namespace Facturacion.Dominio.MetaData
     {
         public void Configure(EntityTypeBuilder<FacturaCompra> builder)
         {
-            builder.Property(x => x.Fecha).IsRequired();
-            builder.Property(x => x.Monto).IsRequired();
-            builder.Property(x => x.NumeroFactura).IsRequired();
-            builder.Property(x => x.ProveedorId).IsRequired();
-            builder.Property(x => x.UsuarioId).IsRequired();
+            builder.Property(x => x.Fecha)
+                .IsRequired()
+                .HasColumnType("Date");
+
+            builder.Property(x => x.Monto)
+                .IsRequired()
+                .HasColumnType("numeric(18,2)");
+
+            builder.Property(x => x.NumeroFactura)
+                .IsRequired();
+
+            builder.Property(x => x.ProveedorId)
+                .IsRequired();
+
+            builder.Property(x => x.UsuarioId)
+                .IsRequired();
+
+            builder.Property(x => x.EstaBorrado)
+               .HasDefaultValue(false);
         }
     }
 }

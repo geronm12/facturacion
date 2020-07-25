@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "5JFq1wKJNjn3AsWADRSKGcnE2KPXQUeQ7Kw44hLDyKQATL10w0/THmficliveJid1dlpqn7JK80RntFNG1xxFg==",
+  "dgSpecHash": "J9dIm8p43mS8SNFbTsy+8FPvJYVAqeGD2MeXBt4Rm9bRqhCV6Z+qm2OZTwei0j71zTo3ztRcWdrmE1tyCXr9xg==",
   "success": true,
   "projectFilePath": "Z:\\PROGRAMACION\\C#\\.NETCORE\\FacturacionWeb\\Facturacion.Dominio\\Facturacion.Dominio.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\gerol\\.nuget\\packages\\microsoft.entityframeworkcore\\3.1.6\\microsoft.entityframeworkcore.3.1.6.nupkg.sha512",
     "C:\\Users\\gerol\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\3.1.6\\microsoft.entityframeworkcore.abstractions.3.1.6.nupkg.sha512",
     "C:\\Users\\gerol\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\3.1.6\\microsoft.entityframeworkcore.analyzers.3.1.6.nupkg.sha512",
+    "C:\\Users\\gerol\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\3.1.6\\microsoft.entityframeworkcore.relational.3.1.6.nupkg.sha512",
     "C:\\Users\\gerol\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\3.1.6\\microsoft.extensions.caching.abstractions.3.1.6.nupkg.sha512",
     "C:\\Users\\gerol\\.nuget\\packages\\microsoft.extensions.caching.memory\\3.1.6\\microsoft.extensions.caching.memory.3.1.6.nupkg.sha512",
     "C:\\Users\\gerol\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.6\\microsoft.extensions.configuration.3.1.6.nupkg.sha512",
