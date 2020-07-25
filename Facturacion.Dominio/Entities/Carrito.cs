@@ -18,5 +18,7 @@ namespace Facturacion.Dominio.Entities
         public virtual ICollection<DetalleFactura> DetalleFacturas { get; set; }
 
         public virtual Usuario Usuario { get; set; }
+
+        public virtual Orden Orden { get; set; }
     }
 }

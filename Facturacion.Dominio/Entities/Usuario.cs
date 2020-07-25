@@ -16,5 +16,7 @@ namespace Facturacion.Dominio.Entities
         public bool EsBloqueable { get; set; }
 
         public bool EstaBloqueado { get; set; }
+
+        public virtual ICollection<Carrito> Carritos { get; set; }
     }
 }

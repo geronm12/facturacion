@@ -9,7 +9,9 @@ namespace Facturacion.Dominio.Entities
         public long ProveedorId { get; set; }
 
         public long UsuarioId { get; set; }
-
+         
         public virtual Usuario Usuario { get; set; }
+
+        public virtual Proveedor Proveedor { get; set; }
     }
 }

@@ -11,5 +11,6 @@ namespace Facturacion.Dominio.Entities
 
         public long DetalleCajaId { get; set; }
 
+        public virtual DetalleDeCaja  DetalleDeCaja { get; set; }
     }
 }
