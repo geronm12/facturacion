@@ -9,10 +9,9 @@ namespace Facturacion.Dominio.Entities
     {
         public string Descripcion { get; set; }
 
-        public Categoria Categoria { get; set; }
+        public long CategoriaId { get; set; }
 
-        public Marca Marca { get; set; }
-
+        public long MarcaId { get; set; }
         public decimal Stock { get; set; }
 
         public string Codigo { get; set; }
@@ -21,6 +20,6 @@ namespace Facturacion.Dominio.Entities
 
         public long PrecioId { get; set; }
 
-        public virtual Precio Precio { get; set; }
+        public virtual PrecioMetaData Precio { get; set; }
     }
 }

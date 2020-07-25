@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Facturacion.Dominio.Entities
 {
-    public  class ListaDePrecios : EntityBase
+    public class ListaDePrecios : EntityBase
     {
         public string Descripcion { get; set; }
 
@@ -13,9 +13,8 @@ namespace Facturacion.Dominio.Entities
 
         public decimal? Recargo { get; set; }
 
-        public long PrecioListaPrecioId { get; set; }
-
         public virtual Cliente Cliente { get; set; }
-        public virtual PrecioListaPrecio PrecioListaPrecio { get; set; }
+
+        public virtual ICollection<PrecioListaPrecio> PrecioListaPrecio { get; set; }
     }
 }

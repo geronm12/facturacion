@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Facturacion.Dominio.Entities
 {
-    public class Empleado : Persona
+    public class Emplead : Persona
     {
         public string DNI { get; set; }
 

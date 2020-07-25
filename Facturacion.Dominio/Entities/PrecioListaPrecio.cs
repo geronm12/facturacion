@@ -11,9 +11,9 @@ namespace Facturacion.Dominio.Entities
 
         public long ListaPrecioId { get; set; }
 
-        public virtual ICollection<Precio> Precios { get; set; }
+        public virtual PrecioMetaData Precio { get; set; }
 
-        public virtual ICollection<ListaDePrecios> ListaDePrecios { get; set; }
+        public virtual ListaDePrecios ListaDePrecio { get; set; }
     
     }
 }

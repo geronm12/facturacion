@@ -13,6 +13,8 @@ namespace Facturacion.Dominio.Entities
 
         public int NumeroFactura { get; set; }
 
+        public long? OrdenId { get; set; }
+
         public virtual ICollection<DetalleFactura> DetalleFacturas { get; set; }
 
         public virtual Orden Orden { get; set; }

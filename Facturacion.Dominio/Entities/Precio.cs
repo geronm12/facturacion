@@ -12,11 +12,9 @@ namespace Facturacion.Dominio.Entities
         public DateTime FechaActualizacion { get; set; }
 
         public decimal PrecioCosto { get; set; }
+ 
+        public virtual ICollection<PrecioListaPrecio> PrecioListaPrecio { get; set; }
 
-        public long PrecioListaPrecioId { get; set; }
-
-        public virtual PrecioListaPrecio PrecioListaPrecio { get; set; }
-
-        public virtual ICollection<Producto> Productos { get; set; }
+        public virtual ICollection<ProductoMetaData> Productos { get; set; }
     }
 }
