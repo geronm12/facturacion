@@ -19,7 +19,7 @@ namespace Facturacion.Dominio.Entities
 
         public long UsuarioId { get; set; }
 
-        
+        public virtual Usuario Usuario { get; set; }
 
     }
 }

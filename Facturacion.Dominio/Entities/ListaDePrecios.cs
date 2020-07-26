@@ -13,7 +13,7 @@ namespace Facturacion.Dominio.Entities
 
         public decimal? Recargo { get; set; }
 
-        public virtual Cliente Cliente { get; set; }
+        public virtual ICollection<Cliente> Clientes { get; set; }
 
         public virtual ICollection<PrecioListaPrecio> PrecioListaPrecio { get; set; }
     }

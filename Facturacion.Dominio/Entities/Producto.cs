@@ -21,5 +21,10 @@ namespace Facturacion.Dominio.Entities
         public long PrecioId { get; set; }
 
         public virtual PrecioMetaData Precio { get; set; }
+
+        public virtual Categoria Categoria { get; set; }
+
+        public virtual ICollection<DetalleFactura> DetalleFacturas { get; set; }
+
     }
 }

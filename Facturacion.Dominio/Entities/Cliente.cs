@@ -10,10 +10,9 @@ namespace Facturacion.Dominio.Entities
 
         public virtual ListaDePrecios ListaDePrecios { get; set; }
  
-        public virtual Usuario Usuario { get; set; }
-
+     
         public virtual ICollection<FacturaVenta> FacturaVentas { get; set; }
 
-        
+        public virtual ICollection<Carrito> Carritos { get; set; }
     }
 }

@@ -16,9 +16,12 @@ namespace Facturacion.Dominio.Entities
 
         public long FacturaId { get; set; }
 
+        public long CarritoId { get; set; }
         public virtual Producto Producto { get; set; }
 
         public virtual Factura Factura { get; set; }
+
+        public virtual Carrito Carrito { get; set; }
 
     }
 }
